@@ -1,0 +1,45 @@
+.logo {
+  height: 22px;
+}
+
+.header {
+  width: 100%;
+  background: $background-primary;
+
+  &__container {
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    &__item {
+      & a {
+        text-decoration: none;
+      }
+
+      & a {
+        text-decoration: none;
+        color: $text-color-primary;
+        font-weight: 500;
+        font-size: 18px;
+      }
+
+      & a:hover {
+        color: #cf711f;
+      }
+    }
+  }
+}

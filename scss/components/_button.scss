@@ -1,0 +1,62 @@
+.btn-primary {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: $btn-color;
+  padding: 16px 32px;
+  border-radius: 9px;
+  background: $btn-background;
+}
+
+.btn-secondary {
+  text-decoration: none;
+  background: $btn-background;
+  color: $btn-color;
+  padding: 12px 24px;
+  border-radius: 9px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.btn-secondary:hover,
+.btn-primary:hover {
+  background-color: #cf711f;
+}
+
+.learn-btn {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: $body-text-color;
+  padding: 16px 32px;
+  border-radius: 9px;
+  background-color: #fff;
+}
+
+.learn-btn:hover {
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn--form {
+  // display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 9px;
+  border: none;
+  font-family: inherit;
+  align-self: end;
+  padding: 12px;
+  transition: all 0.3s;
+}
+
+#sign-in-btn {
+  background-color: #45260a;
+  color: #fff;
+}
+
+#sign-in-btn:hover {
+  background-color: #fff;
+  color: #555;
+}
