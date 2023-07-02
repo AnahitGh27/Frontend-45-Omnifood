@@ -216,6 +216,11 @@ body {
   color: #cf711f;
   font-weight: 700;
 }
+@media screen and (max-width: 1024px) {
+  .start-wrapper .start-wrapper {
+    flex-direction: column;
+  }
+}
 .start-wrapper .btn-start {
   margin-right: 16px;
 }

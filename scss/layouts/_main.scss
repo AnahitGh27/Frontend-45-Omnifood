@@ -52,6 +52,14 @@
     }
   }
 
+  //media-screen
+
+  @media screen and (max-width: 1024px) {
+    .start-wrapper {
+      flex-direction: column;
+    }
+  }
+
   .btn-start {
     margin-right: 16px;
   }
